@@ -1,0 +1,464 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap");
+/* Global Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  font-family: "Dosis", sans-serif;
+}
+section {
+  padding: 100px 0px;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+.heading-one {
+  font-size: 40px;
+  font-weight: 500;
+}
+.heading-two {
+  font-size: 33px;
+  font-weight: 500;
+}
+.small-heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+.btn {
+  color: #313131;
+  background: #00fff0;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: ease-in-out 0.8s;
+}
+.btn:hover {
+  box-shadow: 0px 0px 6px #00ffeef1;
+}
+p {
+  font-size: 14px;
+  color: gray;
+}
+/* Layout Css */
+.row {
+  width: 100%;
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+/* Header Part Start  */
+header {
+  background-color: #223047;
+  color: #fff;
+}
+nav {
+  padding: 10px 0px;
+  border-bottom: 2px solid #ffffff63;
+  position: fixed;
+  top: 0;
+  background: #223047;
+  z-index: 10;
+}
+.logo {
+}
+.menu {
+}
+.menu ul {
+  text-align: center;
+  padding: 5px 0px;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+}
+.menu a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffff;
+  margin: 0px 10px;
+}
+.btn-part {
+  text-align: end;
+}
+.hero {
+}
+.hero-writing-part {
+  padding: 100px;
+  margin-top: 80px;
+}
+.hero-writing-part h1 {
+}
+.hero-writing-part p {
+  margin: 50px 0px;
+}
+.hero-img-part {
+  text-align: center;
+}
+.hero-img-part img {
+  position: relative;
+  top: 125px;
+}
+.hero-btn-part {
+}
+.hero-btn-part button {
+}
+.btn-light {
+  color: #fff;
+  border: 1px solid;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: ease-in-out 0.8s;
+  margin-left: 20px;
+}
+
+.btn-light:hover {
+  background: #fff;
+  color: #000;
+}
+/* Header Part End  */
+
+/* About Part Start  */
+#about {
+  text-align: center;
+  margin-top: 100px;
+}
+.about-writing-part {
+}
+.about-writing-part h2 {
+}
+.underline {
+  border-top: 5px solid #00fff1;
+  display: block;
+  width: 7%;
+  margin: 50px auto;
+}
+.about-box-part {
+}
+.box-part {
+  padding: 20px;
+}
+.box-part img {
+  height: 100px;
+}
+.box-part h2 {
+  margin: 20px 0px;
+}
+.box-part p {
+}
+/* About Part End  */
+
+/* Info Part Start  */
+#info {
+  padding: 0;
+}
+.blank {
+  height: 300px;
+  background: #323a4d;
+}
+.info-part {
+  padding: 54px;
+  background: #f5f6fa;
+  max-height: 300px;
+}
+.info-part h3 {
+}
+.info-part p {
+  margin: 20px 0px;
+  width: 86%;
+}
+/* About Part End  */
+/* App Prasentaion Part Start  */
+#app {
+  padding: 100px 0px 0px;
+}
+.app-top {
+}
+.app-top-writing-part {
+  text-align: end;
+  margin: 130px 0px;
+  padding: 20px;
+}
+.app-top-writing-part h3 {
+}
+.app-top-writing-part p {
+  margin: 20px 0px;
+}
+.app-top-writing-part a button {
+}
+.app-top-img-part {
+}
+.app-top-img-part img {
+  padding: 50px;
+}
+.app-middle {
+}
+.app-middle-img-part {
+  text-align: center;
+}
+.app-middle-img-part img {
+  position: relative;
+  top: 75px;
+}
+.app-middle-box-part {
+  padding: 50px 0px;
+}
+.app-box {
+  padding: 30px;
+  margin: 10px 0px;
+  box-shadow: 0px 1px 2px #8080808f;
+  border-radius: 5px;
+  transition: ease-in-out 0.8s;
+}
+.app-box:hover {
+  background: #00fff0;
+  box-shadow: 0px 0px 6px #00fff0;
+}
+.app-box img {
+  height: 25px;
+  margin: 0px 12px;
+}
+.app-box h3 {
+  display: inline-block;
+}
+.app-bottom {
+  background: #f5f6fa;
+  padding-top: 100px;
+}
+.app-bottom-writing-part {
+  text-align: end;
+}
+.app-bottom-writing-part div {
+  margin: 20px;
+}
+.app-bottom-writing-part div i {
+  font-size: 10px;
+  background: #00fff0;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+.app-bottom-writing-part span {
+}
+#bottom-writing-part {
+  padding-left: 200px;
+  margin: 41px 0px;
+}
+.app-bottom-writing-part p {
+}
+.app-bottom-img-part {
+  text-align: center;
+}
+.app-bottom-img-part img {
+  max-width: 50%;
+}
+/* App Prasentaion Part End  */
+/* Video Part Start  */
+#video {
+  text-align: center;
+  background: #223047;
+  color: #fff;
+  padding: 150px 0px;
+}
+#video img {
+}
+#video h4 {
+  margin: 35px;
+}
+#video p {
+  width: 60%;
+  color: #fff;
+  margin: auto;
+}
+/* Video Part End  */
+/* Download Part Start  */
+#download {
+  text-align: center;
+  padding: 0px;
+}
+.map {
+  background: url(../img/map.png) no-repeat center;
+  background-size: cover;
+  margin: 100px;
+}
+.map p {
+  margin: 25px;
+  font-size: 18px;
+  color: #000;
+}
+.map a button {
+  border-radius: 0;
+  text-transform: UPPERCASE;
+  font-weight: 600;
+  font-size: 15px;
+}
+/* Download Part End  */
+
+/* testimonial Part Start */
+#testimonial {
+  background-color: #223047;
+  color: #00fff0;
+  text-align: center;
+}
+#testimonial q {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+/* testimonial Part End */
+/* app add Part Start */
+#app-add {
+  background: #f5f6fa;
+}
+.app-add-img-part {
+}
+.app-add-img-part img {
+}
+.app-add-writing-part {
+  margin: 190px 0px;
+}
+.app-add-writing-part h5 {
+}
+.app-add-writing-part p {
+  margin: 20px 0px;
+  width: 70%;
+}
+.download-img {
+}
+.download-img img {
+  margin-right: 10px;
+}
+.big-btn-part {
+  text-align: center;
+}
+.big-btn {
+  width: 20%;
+  padding: 20px;
+  border-radius: 0px;
+  position: relative;
+  top: -30px;
+}
+/* app add Part End */
+/* Footer Widget Part Start */
+#footer-widget {
+}
+.footer-link-part {
+}
+.footer-link {
+  width: 20%;
+  float: left;
+  text-align: start;
+}
+.footer-link h6 {
+  padding: 0px 5px;
+}
+.footer-link li {
+  list-style: none;
+  margin: 9px 0px;
+  padding: 5px;
+  width: 50%;
+  transition: ease-in-out 0.8s;
+}
+.footer-link li:hover {
+  background: #00fff0;
+}
+.footer-link a {
+  color: #000;
+  font-size: 16px;
+}
+#newsletter {
+  text-align: center;
+  margin-top: 50px;
+}
+#newsletter p {
+  margin: 25px 0px;
+}
+.nl-btn {
+  border-radius: 0;
+}
+.email {
+  padding: 10px 25px;
+  background: #f5f6fa;
+  width: 35%;
+}
+/* Footer Widget Part End */
+/* Footer  Part start */
+footer {
+  background: #223047;
+  padding: 20px 0px;
+}
+.copywrite {
+}
+.copywrite p {
+  font-size: 16px;
+  margin: 3px 0px;
+  color: #00fff0;
+}
+.social-icon {
+  text-align: end;
+}
+.social-icon i {
+  color: #fff;
+  font-size: 25px;
+  margin: 0px 14px;
+  transition: ease-in-out 0.8s;
+}
+.social-icon i:hover {
+  color: #00fff0;
+}
+/* Footer  Part End */
